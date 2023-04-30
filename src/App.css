@@ -2,6 +2,96 @@
   text-align: center;
 }
 
+body {
+  background-color: #95dff3;
+
+}
+
+.container {
+  background-color: rgb(7, 2, 71);
+  justify-content: center;
+  width: 50%;
+  margin-left: 26%;
+  margin-top: 5%;
+  text-align: center;
+  padding: 20px;
+
+
+}
+
+input  {
+  width: 80%;
+  
+  padding: 12px 20px;
+  margin: 30px 0;
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.list-heading {
+  color: rgb(15, 14, 14);
+  text-align: left;
+  font-size: 3rem;
+  width: 60%;
+  background-color: rgb(58, 218, 224);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 0.75rem;
+
+}
+
+.list-data {
+  color: black;
+  font-size: 20px;
+  background-color: rgb(164, 203, 237);
+  text-align: left;
+  padding-left: 30px;
+  width: 50%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  border-radius: 10px;
+
+
+
+
+}
+
+
+.btn-position{
+position: relative;
+left: 18%;
+top:-54%;
+
+}
+
+
+
+button{
+
+background-color:bisque;
+height: 40px;
+width: 5rem;
+border-radius: 10px;
+}
+
+
+
+
+.header {
+  width: 100%;
+  padding: 12px 20px;
+  color: white;
+  font-size: 50px;
+  font-family: sans-serif;
+
+}
+
+
+
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +122,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
